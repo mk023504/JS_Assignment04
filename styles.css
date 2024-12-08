@@ -1,0 +1,54 @@
+/* General Reset */
+/* Set a consistent font, remove default margins and paddings, and set a background color */
+body {
+    font-family: 'Arial', sans-serif; /* Use Arial or a similar sans-serif font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #fef8f8; /* Light pinkish background color */
+    color: #333; /* Dark gray text for good contrast */
+    text-align: center; /* Center text alignment for body content */
+}
+
+/* Main Container */
+/* Styles for the container holding all content */
+.container {
+    max-width: 600px; /* Restrict the container width to 600px */
+    margin: 50px auto; /* Center the container vertically and horizontally with auto margins */
+    padding: 20px; /* Add padding inside the container for spacing */
+    background: #ffffff; /* White background for the container */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    border-radius: 10px; /* Round the corners of the container */
+}
+
+/* Button Styling */
+/* Base styles for the button */
+button {
+    padding: 10px 20px; /* Add padding for a comfortable click area */
+    background-color: #ff4500; /* Bright orange background */
+    color: #fff; /* White text for contrast */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Slightly round the corners */
+    cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+    font-size: 1rem; /* Set font size to 1rem for better readability */
+    transition: background-color 0.3s ease; /* Smooth transition effect for hover state */
+}
+
+/* Button Hover State */
+/* Styling for when the user hovers over the button */
+button:hover {
+    background-color: #e63e00; /* Darker orange for hover state */
+}
+
+/* Image Container */
+/* Add margin above the image container */
+#catContainer {
+    margin-top: 20px; /* Space between the button and the image container */
+}
+
+/* Cat Image Styling */
+/* Ensure the image fits well within the container and has a polished appearance */
+#catImage {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    border-radius: 10px; /* Round the corners of the image */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+}
